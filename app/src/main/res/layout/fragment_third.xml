@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Third Fragment" />
+
+    <TextView
+        android:id="@+id/name_text_view"
+        android:layout_marginBottom="150dp"
+        android:layout_gravity="center"
+        android:text="fawaz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/navigate_to_fourth_fragment_button"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go to screen 4"/>
+
+    <TextView
+        android:id="@+id/age_text_view"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"/>
+
+    <TextView
+        android:id="@+id/address_text_view"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bekasi"/>
+
+    <TextView
+        android:id="@+id/job_text_view"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mahasiswa"/>
+
+</FrameLayout>
